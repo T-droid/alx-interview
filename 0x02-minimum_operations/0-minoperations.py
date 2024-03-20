@@ -2,7 +2,7 @@
 """definition of mini_operation"""
 
 
-def minOperation(n: float) -> int:
+def minOperations(n: float) -> int:
     """finds the minum operations to be perfomed on a file"""
     factors = []
     divisor = 2
@@ -15,6 +15,3 @@ def minOperation(n: float) -> int:
     if len(factors) == 1:
         return 0
     return (sum(factors))
-
-
-print(minOperation(12))
