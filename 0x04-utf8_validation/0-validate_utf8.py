@@ -18,4 +18,4 @@ def validUTF8(data):
             if byte >> 6 != 0b10:
                 return False
             bytes_for_following -= 1
-    return True
+    return bytes_for_following == 0
