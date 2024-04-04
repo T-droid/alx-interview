@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """defines the functions to validate utf-8"""
 
+
 def validUTF8(data):
     """validates for UTF characters"""
     bytes_for_following = 0
